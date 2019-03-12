@@ -18,7 +18,7 @@ html {
 /* Position text in the middle */
 .middle {
   position: absolute;
-  color: beige;
+  color: black;
   top: 70%;
   left: 39%;
   text-align: center;
@@ -37,7 +37,7 @@ html {
 
 /*Set text color for a tag inside middle class and ul>li element*/
 .middle ul li a {
-  color: beige;
+  color: black;
 }
 
 /*Change text color and decoration for a tags inside middle class and ul>li element*/
