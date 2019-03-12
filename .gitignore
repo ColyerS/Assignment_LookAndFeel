@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs/ProjectSettings.json
+/.vs/config/applicationhost.config
+/.vs/slnx.sqlite
