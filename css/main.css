@@ -1,47 +1,106 @@
-/**
-Sample css code
-*/
-/* Set height to 100% for body and html to enable the background image to cover the whole page: */
-body,
-html {
-  height: 100%;
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+          
+* {
+  box-sizing: border-box;
 }
 
-/*Set background image*/
-.container {
-  background-image: url('https://doc-10-ao-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/r085o9ungppbiokopob2sfbekae4uqbb/1537920000000/14802840322886517493/*/110cT8sl-pOiHGgj9yToPkAqAzrr-RNfb');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
+body {
+  font-family: 'Slabo 27px', serif;
+  padding: 0;
+  margin: 0;
+  background: #ffefe0;
 }
 
-/* Position text in the middle */
-.middle {
-  position: absolute;
-  color: black;
-  top: 70%;
-  left: 39%;
+/* Header/Blog Title */
+.header {
+  padding: 30px;
   text-align: center;
-  font-size: 25px;
+  background: #fed9ca;
 }
 
-/*Set circle in unordered list*/
-.middle ul {
-  list-style-type: circle;
+.header h1 {
+  font-size: 50px;
 }
 
-/*Set text inside li tag to left*/
-.middle ul li {
-  text-align: left !important;
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #c5c5c5;
 }
 
-/*Set text color for a tag inside middle class and ul>li element*/
-.middle ul li a {
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
   color: black;
 }
 
-/*Change text color and decoration for a tags inside middle class and ul>li element*/
-.middle ul li a:hover {
-  color: red;
-  text-decoration: none;
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #ffefe0;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #fed9ca;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #c5c5c5;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #c5c5c5;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }
