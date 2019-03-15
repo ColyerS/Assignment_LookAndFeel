@@ -1,20 +1,26 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<div class="header">
-    <link rel="stylesheet" href="css/header.css">
-    <h1>HELLO WORLD</h1>
-</div>
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <title>Travel</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--Specifies the library to use for chart.js-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 </head>
 
-<body>
-</body>
+    <body>
+        <div class="header">
+            <h1>HELLO WORLD</h1>
+        </div>
+        <div class="wrapper">
+            <h1>World population over time - TESTING CHART</h1>
+            <h2>Number of people (in millions) living on earth, the last 500 years</h2>
+            <!--Specifies the size a placement of the chart-->
+            <canvas id="myChart" width="1600" height="900"></canvas>
+        </div>
+        <!--Use the js script to alter the data in the chart-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
 <footer>
     <p>
         <a href="index.html">HOME</a>
@@ -23,5 +29,5 @@
         <a href="unitedStates.html">UNITED STATES</a>
     </p>
 </footer>
-</html>
+
 
