@@ -27,6 +27,7 @@ body {
 .topnav {
     overflow: hidden;
     background-color: #c5c5c5;
+    text-align: center;
 }
 
     /* Style the topnav links */
