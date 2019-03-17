@@ -8,7 +8,7 @@
 body {
     font-family: 'Slabo 27px', serif;
     padding: 0;
-    margin: 10px;
+    margin: 0;
     background: #ffefe0;
 }
 
@@ -109,17 +109,68 @@ IMG.displayed {
     margin-right: auto
 }
 
-
-table {
+/*table {
     border-collapse: collapse;
-    width: 100%;
-}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}*/
 
-th, td {
+/*th, td {
     text-align: left;
     padding: 8px;
-}
+    //width: auto;
+    white-space: nowrap;
+}*/
 
 tr:nth-child(even) {
     background-color: #d9d9d9;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/********************/
+
+.fbPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fbHeader {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+.fbImage {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.fbFacts {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.fbTable {
+    width: 100%;
+    table-layout: fixed;
+}
+.tcol50 {
+    width:50%;
+}
+
+.fbFooter {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align:center;
+    margin-top: 10px;
+}
+
+.fbfl {
+    padding: 5px;
 }
