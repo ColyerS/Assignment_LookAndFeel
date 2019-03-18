@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+
 {
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Raleway';
     padding: 0;
@@ -32,11 +34,11 @@ body {
         padding: 18px 20px;
         text-decoration: none;
     }
-    /* Change color on hover */
-    .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-    }
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
 
 /* Add a card effect for articles */
 /*.card {
@@ -46,6 +48,8 @@ body {
 }*/
 
 /*Footer*/
+
+
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
@@ -76,34 +80,40 @@ body {
     font-family: 'Slabo 27px', serif;
     background: #fed9ca;
 }
+
 .fbPageHeader {
     text-align: center;
     font-family: 'Slabo 27px', serif;
     background: #ffefe0;
     font-size: 75%;
 }
+
 .fbImage {
 }
+
 img {
     width: 100%;
     height: auto;
 }
+
 .fbFacts {
-   
 }
+
 .fbTable {
     width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
 }
+
 tr:nth-child(even) {
     background-color: #ffffff;
 }
+
 .tcol50 {
-    width:50%;
+    width: 50%;
 }
+
 .fbFooter {
-  
     text-align: center;
     padding: 20px;
     text-align: center;
@@ -111,14 +121,19 @@ tr:nth-child(even) {
     margin-top: 20px;
     font-family: 'Slabo 27px', serif;
 }
+
 .fbfl {
     padding: 5px;
     color: black;
     text-align: center;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+.abtFont {
+    font-size: 85%;
+}
