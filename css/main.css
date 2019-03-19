@@ -7,15 +7,13 @@
 
 body {
     font-family: 'Raleway';
-    padding: 0;
-    margin: 0;
     background: #ffefe0;
     /* This centers our sketch horizontally. */
     justify-content: center;
     /* This centers our sketch vertically. */
     align-items: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* Style the top navigation bar */
@@ -31,7 +29,7 @@ body {
         display: block;
         color: black;
         text-align: center;
-        padding: 18px 20px;
+        padding: 5%;
         text-decoration: none;
     }
         /* Change color on hover */
@@ -115,7 +113,7 @@ tr:nth-child(even) {
 
 .fbFooter {
     text-align: center;
-    padding: 20px;
+    padding: 5%;
     text-align: center;
     background: #c5c5c5;
     margin-top: 20px;
@@ -134,6 +132,3 @@ ul {
     padding: 0;
 }
 
-.abtFont {
-    font-size: 85%;
-}
